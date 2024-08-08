@@ -7,7 +7,7 @@ const connection = new Sequelize({
     database: process.env.DB_NAME,
     user: process.env.USER,
     password: process.env.PASSWORD,
-    host: process.HOST,
+    host: process.env.HOST,
     port: process.env.DB_PORT,
     showWarnings: true,
     connectTimeout: 1000,
